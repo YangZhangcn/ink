@@ -1,6 +1,7 @@
 package com.zy.lucis.utils;
 
-import com.blankj.utilcode.constant.RegexConstants;
+
+import com.zy.lucis.constants.RegexConstants;
 
 import java.util.ArrayList;
 import java.util.List;

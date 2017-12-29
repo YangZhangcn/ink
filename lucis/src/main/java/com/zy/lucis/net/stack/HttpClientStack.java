@@ -1,4 +1,7 @@
-package com.zy.lucis.net;
+package com.zy.lucis.net.stack;
+
+import com.zy.lucis.net.request.Request;
+import com.zy.lucis.net.Response;
 
 /**
  * Created by zhangyang on 2017/9/7.

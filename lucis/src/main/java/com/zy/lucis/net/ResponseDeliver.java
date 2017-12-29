@@ -4,6 +4,8 @@ import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.NonNull;
 
+import com.zy.lucis.net.request.Request;
+
 import java.util.concurrent.Executor;
 
 /**

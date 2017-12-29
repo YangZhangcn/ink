@@ -1,6 +1,8 @@
-package com.zy.lucis.net;
+package com.zy.lucis.net.request;
 
 import android.support.annotation.NonNull;
+
+import com.zy.lucis.net.Response;
 
 import java.net.URLEncoder;
 import java.util.HashMap;

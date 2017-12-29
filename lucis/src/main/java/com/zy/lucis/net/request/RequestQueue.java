@@ -1,6 +1,10 @@
-package com.zy.lucis.net;
+package com.zy.lucis.net.request;
 
 import android.util.Log;
+
+import com.zy.lucis.net.NetworkExecutor;
+import com.zy.lucis.net.stack.HttpStack;
+import com.zy.lucis.net.stack.HttpStackFactory;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.PriorityBlockingQueue;

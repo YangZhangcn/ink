@@ -1,4 +1,6 @@
-package com.zy.lucis.net;
+package com.zy.lucis.net.request;
+
+import com.zy.lucis.net.Response;
 
 import org.json.JSONException;
 import org.json.JSONObject;

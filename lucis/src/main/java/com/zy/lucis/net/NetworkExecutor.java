@@ -2,6 +2,9 @@ package com.zy.lucis.net;
 
 import android.util.Log;
 
+import com.zy.lucis.net.request.Request;
+import com.zy.lucis.net.stack.HttpStack;
+
 import java.util.concurrent.BlockingQueue;
 
 /**
