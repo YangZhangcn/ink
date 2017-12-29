@@ -213,7 +213,7 @@ public final class ToastUtils {
                 cancel();
                 sToast = Toast.makeText(Utils.getApp(), text, duration);
                 // solve the font of toast
-                TextView tvMessage = sToast.getView().findViewById(android.R.id.message);
+                TextView tvMessage = (TextView) sToast.getView().findViewById(android.R.id.message);
                 TextViewCompat.setTextAppearance(tvMessage, android.R.style.TextAppearance);
                 tvMessage.setTextColor(msgColor);
                 sToast.setGravity(gravity, xOffset, yOffset);
