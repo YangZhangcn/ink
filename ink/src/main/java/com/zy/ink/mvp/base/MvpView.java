@@ -12,6 +12,6 @@ public interface MvpView {
 
     void showToast();
 
-
+    void onError(String msg);
 
 }

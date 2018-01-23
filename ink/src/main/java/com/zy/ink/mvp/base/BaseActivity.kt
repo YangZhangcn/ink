@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.view.Window
 import android.view.WindowManager
+import com.zy.ink.R
+import com.zy.lucis.utils.SnackbarUtils
+import com.zy.lucis.utils.ToastUtils
 
 /**
  * Created by zhangyang on 2017/12/29.
@@ -38,6 +41,10 @@ class BaseActivity : AppCompatActivity(), MvpView {
     }
 
     override fun showToast() {
+        ToastUtils.setBgColor(resources.getColor(R.color.colorPrimary))
+    }
+
+    override fun onError(msg: String?) {
 
     }
 }
